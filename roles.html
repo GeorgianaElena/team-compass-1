@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Strategy and goals &#8212; The 2i2c Handbook</title>
+    <title>Roles and Salaries &#8212; The 2i2c Handbook</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -44,8 +44,8 @@
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Active Projects" href="projects.html" />
-    <link rel="prev" title="Roles and Salaries" href="roles.html" />
+    <link rel="next" title="Strategy and goals" href="strategy.html" />
+    <link rel="prev" title="Team practices" href="practices.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -78,7 +78,7 @@
   Team Information
  </span>
 </p>
-<ul class="nav sidenav_l1">
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="about.html">
    About 2i2c
@@ -94,8 +94,8 @@
    Team practices
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="roles.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Roles and Salaries
   </a>
  </li>
@@ -105,9 +105,9 @@
   Strategy
  </span>
 </p>
-<ul class="current nav sidenav_l1">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="strategy.html">
    Strategy and goals
   </a>
  </li>
@@ -152,7 +152,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/strategy.md.txt"><button type="button"
+        <a class="dropdown-buttons" href="_sources/roles.md.txt"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -172,7 +172,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         
-        <a class="edit-button" href="https://github.com/2i2c-org/handbook/edit/master/strategy.md"><button
+        <a class="edit-button" href="https://github.com/2i2c-org/handbook/edit/master/roles.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -198,23 +198,35 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#interactive-computing-in-research">
-   Interactive computing in research
+  <a class="reference internal nav-link" href="#terminology">
+   Terminology
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#interactive-computing-in-education">
-   Interactive computing in education
+  <a class="reference internal nav-link" href="#roles-at-2i2c">
+   Roles at 2i2c
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#open-source-infrastructure-engineer">
+     Open Source Infrastructure Engineer
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#director-of-engineering">
+     Director of engineering
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#director-of-2i2c">
+     Director of 2i2c
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#supporting-open-source-communities">
-   Supporting open source communities
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#organizational">
-   Organizational
+  <a class="reference internal nav-link" href="#salaries">
+   Salaries
   </a>
  </li>
 </ul>
@@ -228,121 +240,51 @@
         
               <div>
                 
-  <div class="section" id="strategy-and-goals">
-<h1>Strategy and goals<a class="headerlink" href="#strategy-and-goals" title="Permalink to this headline">¶</a></h1>
-<p>The 2i2c strategic plan is a combination of active and aspirational priorities that help us get closer to achieving our organizational mission. These are roughly broken down into <strong>Objectives and Key Results</strong> across four categories, associated with the <a class="reference external" href="https://2i2c.org/#what-we-do">mission of 2i2c</a>:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="strategy:research">Interactive Computing in Research</a></p></li>
-<li><p><a class="reference external" href="strategy:education">Supporting Interactive Computing in Education</a></p></li>
-<li><p><a class="reference external" href="strategy:open-source">Supporting Open Source Communities for Interactive Computing</a></p></li>
-<li><p><a class="reference external" href="strategy:organizational">Organizational and operational goals</a></p></li>
-</ul>
-<p>Each <a class="reference internal" href="projects.html"><span class="doc std std-doc">2i2c project</span></a> should work towards accomplishing one or more of these goals. Note that there are no deadlines yet associated with these goals, as 2i2c is still in the process of defining its organizational structure and cadence.</p>
-<div class="section" id="interactive-computing-in-research">
-<span id="strategy-research"></span><h2>Interactive computing in research<a class="headerlink" href="#interactive-computing-in-research" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Support the Pangeo project</p>
-<ul>
-<li><p>2i2c team members regularly contribute to Pangeo core infrastructure</p></li>
-<li><p>Pangeo community members report stability and general positive experiences running Pangeo infrastructure</p></li>
-</ul>
-</li>
-<li><p>Extend Pan-foo computing models to new communities</p>
-<ul>
-<li><p>Adapt Pangeo infrastructure and deployments for at least 2 new research communities</p></li>
-<li><p>Pangeo-specific patterns and infrastructure are generalized to be domain-agnostic</p></li>
-<li><p>Documentation for reccomendations using 2i2c Hub infrastructure for Pan-foo projects</p></li>
-</ul>
-</li>
-<li><p>Sustaining research hub infrastructure</p>
-<ul>
-<li><p>A hub and sustainability model is developed for supporting new research communities with Pangeo-like needs</p></li>
-</ul>
-</li>
-</ul>
+  <div class="section" id="roles-and-salaries">
+<h1>Roles and Salaries<a class="headerlink" href="#roles-and-salaries" title="Permalink to this headline">¶</a></h1>
+<p>This document represents the positions and salary levels that 2i2c uses. They are inspired by the hiring/salary structure of several tech companies<a class="footnote-reference brackets" href="#job-refs" id="id1">1</a>.</p>
+<div class="section" id="terminology">
+<h2>Terminology<a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h2>
+<p>Each position at 2i2c takes the following form:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">role</span><span class="o">-</span><span class="n">name</span><span class="o">&gt;</span> <span class="n">L</span><span class="o">&lt;</span><span class="n">level</span><span class="o">&gt;</span> <span class="o">-</span> <span class="n">S</span><span class="o">&lt;</span><span class="n">step</span><span class="o">&gt;</span>
+</pre></div>
 </div>
-<div class="section" id="interactive-computing-in-education">
-<span id="strategy-education"></span><h2>Interactive computing in education<a class="headerlink" href="#interactive-computing-in-education" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Support for large institutional hub infrastructure</p>
-<ul>
-<li><p>Run at least 2 pilots for institutions with a heterogeneous user base (AKA, not for a specific project)</p></li>
-<li><p>Identify development opportunities to improve the use of hubs for large and diverse educational users (e.g., multiple courses, departments, etc)</p></li>
-<li><p>Conversion from pilot hubs to paid hubs for 2-3 large institutions</p></li>
-</ul>
-</li>
-<li><p>Support for smaller / lesser-resourced institutions</p>
-<ul>
-<li><p>Hubs for All that is sustainable and scalable</p></li>
-<li><p>Pilot hubs for several of these kinds of organizations</p></li>
-<li><p>Conversion from pilot hubs to paid hubs for 5-10 smaller institutions</p></li>
-</ul>
-</li>
-<li><p>Improving technology for education with JupyterHub</p>
-<ul>
-<li><p>Development towards LMS integration (e.g. OpenEdX, Canvas, etc)</p></li>
-<li><p>Grading infrastructure or guidelines</p></li>
-<li><p>Recommended documentation for educational use cases on 2i2c Hubs</p></li>
-</ul>
-</li>
-<li><p>Sustaining educational hubs</p>
-<ul>
-<li><p>Sustainability model for large institutional hubs</p></li>
-<li><p>Sustainability model for smaller or under-resourced institutions</p></li>
-</ul>
-</li>
-</ul>
+<p>For example, <strong>Open Source Infrastructure Engineer L2 - S3</strong>.</p>
+<p>Here is a quick breakdown of this terminology and structure:</p>
+<dl class="simple myst">
+<dt>Role</dt><dd><p>Roles are specific areas of focus and skills in 2i2c. The expectations and focus-areas within that role are set by Levels and Steps.</p>
+</dd>
+<dt>Levels</dt><dd><p>Levels are large and distinct jumps in terms of area knowledge, role complexity and overall scope. Higher levels generally mean less-oversight and more autonomy, higher expectations of quality, more work on design / strategy than implementation, etc.</p>
+</dd>
+<dt>Steps</dt><dd><p>Four steps are housed within each level and are meant to mark smaller milestones of growth in terms of ownership and initiative, as well as experience in the current role. These are generally not part of public materials, but are</p>
+</dd>
+</dl>
 </div>
-<div class="section" id="supporting-open-source-communities">
-<span id="strategy-open-source"></span><h2>Supporting open source communities<a class="headerlink" href="#supporting-open-source-communities" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>2i2c team guidelines for supporting open source</p>
-<ul>
-<li><p>Identify major open source tools we direct 2i2c resources towards</p></li>
-<li><p>Create an “Open source support” plan to highlight these projects and our contributions</p></li>
-<li><p>Create a 2i2c policy for upstreaming and supporting open source communities (e.g. % time spent, reporting back OS contribs, etc)</p></li>
-</ul>
-</li>
-<li><p>Core support for key OS tools</p>
-<ul>
-<li><p>Documented contributions across all 2i2c engineers for key OS projects.</p></li>
-<li><p>Commits, contributions in issues/PRs, community work, major development efforts, etc</p></li>
-</ul>
-</li>
-</ul>
+<div class="section" id="roles-at-2i2c">
+<h2>Roles at 2i2c<a class="headerlink" href="#roles-at-2i2c" title="Permalink to this headline">¶</a></h2>
+<p>Below is a list of roles that 2i2c currently uses.</p>
+<div class="section" id="open-source-infrastructure-engineer">
+<h3>Open Source Infrastructure Engineer<a class="headerlink" href="#open-source-infrastructure-engineer" title="Permalink to this headline">¶</a></h3>
+<p>This role focuses on infrastructure that supports interactive computing. It intersects job titles such as “dev-ops engineer”, “site reliability engineer”, “software engineer”, and “cloud engineer”. This person should have experience with cloud infrastructure. They generally both operate 2i2c Hubs, as well as  develop technology for them. In general, a <em>minority</em> of time should be spend operating hubs - we want to use operations as an opportunity to drive development and minimize human-in-the-loop maintenance.</p>
 </div>
-<div class="section" id="organizational">
-<span id="strategy-organizational"></span><h2>Organizational<a class="headerlink" href="#organizational" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Lay an organizational foundation</p>
-<ul>
-<li><p>Document organizational practices and key information</p></li>
-<li><p>External-facing materials, website, etc</p></li>
-<li><p>Staff early projects</p></li>
-</ul>
-</li>
-<li><p>Define team and organization processes</p>
-<ul>
-<li><p>Communications processes</p></li>
-<li><p>Project management and documentation processes</p></li>
-<li><p>Strategic prioritization processes</p></li>
-</ul>
-</li>
-<li><p>Sustainability for 2i2c staff</p>
-<ul>
-<li><p>At least 2 years of funding for leadership and an engineering team</p></li>
-<li><p>Sustainability and growth models for hub offerings</p></li>
-</ul>
-</li>
-<li><p>Grow partnerships with key organizations</p>
-<ul>
-<li><p>Cloud providers</p></li>
-<li><p>Non-profits to collaborate with</p></li>
-<li><p>Funding institutions that may be interested in support 2i2c projects</p></li>
-<li><p>Key research or education institutions</p></li>
-</ul>
-</li>
-</ul>
+<div class="section" id="director-of-engineering">
+<h3>Director of engineering<a class="headerlink" href="#director-of-engineering" title="Permalink to this headline">¶</a></h3>
+<p>The director of engineering sets the technical strategy for 2i2c, as well as leads major technical initiatives for 2i2c infrastructure. Development work should be focused on architectural design and major infrastructure changes. This role defines the technical direction of 2i2c’s development efforts, and interfaces with 2i2c engineers to guide development in this direction.</p>
+</div>
+<div class="section" id="director-of-2i2c">
+<h3>Director of 2i2c<a class="headerlink" href="#director-of-2i2c" title="Permalink to this headline">¶</a></h3>
+<p>This role is the director of 2i2c. They oversee strategy, execution, and fundraising at 2i2c. They also ensure that 2i2c engineers are empowered to execute on their responsibilities, and thrive in their positions.</p>
+</div>
+</div>
+<div class="section" id="salaries">
+<h2>Salaries<a class="headerlink" href="#salaries" title="Permalink to this headline">¶</a></h2>
+<p>Salaries at 2i2c are determined solely by job title as well as several steps within that job (corresponding to experience in a particular job). Currently, the salary policy of 2i2c is <a class="reference external" href="https://2i2c.org/careers/">listed on the careers page of our website</a>. We additionally have <a class="reference external" href="https://docs.google.com/spreadsheets/d/1FJM5pAbc0EWhu4CpPjlbWTMOsZAnivEd2ZBIZIdwpE8/edit?usp=sharing">internal salary documents for the specific positions and levels</a>.</p>
+<hr class="docutils" />
+<dl class="footnote brackets">
+<dt class="label" id="job-refs"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>In particular, <a class="reference external" href="https://buffer.com/resources/salary-formula-changes-2019/">Buffer</a>, <a class="reference external" href="https://stackoverflow.blog/2016/07/27/salary-transparency/">Stack Overflow</a>, and <a class="reference external" href="https://m.signalvnoise.com/how-we-pay-people-at-basecamp/">Basecamp</a></p>
+</dd>
+</dl>
 </div>
 </div>
 
@@ -355,8 +297,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="roles.html" title="previous page">Roles and Salaries</a>
-    <a class='right-next' id="next-link" href="projects.html" title="next page">Active Projects</a>
+    <a class='left-prev' id="prev-link" href="practices.html" title="previous page">Team practices</a>
+    <a class='right-next' id="next-link" href="strategy.html" title="next page">Strategy and goals</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
