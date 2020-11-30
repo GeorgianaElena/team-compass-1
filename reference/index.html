@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; The 2i2c Handbook</title>
+    <title>Reference material &#8212; The 2i2c Handbook</title>
     
   <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -42,8 +42,10 @@
     <script src="../_static/copybutton.js"></script>
     <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
     <link rel="author" title="About these documents" href="../about/" />
-    <link rel="index" title="Index" href="#" />
+    <link rel="index" title="Index" href="../genindex/" />
     <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Strategy and goals" href="../strategy/" />
+    <link rel="prev" title="Site Reliability best practices" href="../sre/" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -76,7 +78,7 @@
   Team Information
  </span>
 </p>
-<ul class="nav sidenav_l1">
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="../about/">
    About 2i2c
@@ -102,8 +104,8 @@
    Site Reliability best practices
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../reference/">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Reference material
   </a>
  </li>
@@ -152,6 +154,23 @@
         </button>
         
         
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/reference.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
         <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -163,7 +182,9 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         
-        
+        <a class="edit-button" href="https://github.com/2i2c-org/handbook/edit/master/reference.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
 </div>
 
@@ -181,6 +202,37 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#organizational-influences">
+   Organizational influences
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#organizational-structure-culture">
+     Organizational structure / culture
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#open-core-saas-inspiration">
+     Open core / SaaS inspiration
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#academia-focused-companies-non-profits">
+     Academia-focused companies/non-profits
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -188,21 +240,39 @@
         
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- <a href="#S"><strong>S</strong></a>
- 
+  <div class="section" id="reference-material">
+<h1>Reference material<a class="headerlink" href="#reference-material" title="Permalink to this headline">¶</a></h1>
+<p>A collection of reference material that is relevant to 2i2c.</p>
+<div class="section" id="organizational-influences">
+<h2>Organizational influences<a class="headerlink" href="#organizational-influences" title="Permalink to this headline">¶</a></h2>
+<p>These are organizations that have influenced the structure and practices of 2i2c (both as organizations to emulate, as well as avoid emulating).</p>
+<div class="section" id="organizational-structure-culture">
+<h3>Organizational structure / culture<a class="headerlink" href="#organizational-structure-culture" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://about.gitlab.com/handbook/">GitLab</a> - is a large open-core company that is innovative in its remote- and async-friendly organization as well as its transparency.</p></li>
+<li><p><a class="reference external" href="https://basecamp.com/handbook">Basecamp</a> - is a remote-only company that has been successful for many years. They also publish much of their company culture/practices online.</p></li>
+</ul>
 </div>
-<h2 id="S">S</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="../practices/#term-Single-Source-of-Truth"><strong>Single Source of Truth</strong></a>
-</li>
-  </ul></td>
-</tr></table>
-
+<div class="section" id="open-core-saas-inspiration">
+<h3>Open core / SaaS inspiration<a class="headerlink" href="#open-core-saas-inspiration" title="Permalink to this headline">¶</a></h3>
+<p>Interesting SaaS with an open-core offering.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.discourse.org/">Discourse</a> - offers an open source hosted community forum application. They do a good job of walking the line between community values and sustainability (e.g., see <a class="reference external" href="https://www.discourse.org/about">the discourse about page</a></p></li>
+</ul>
+<p>For-profit companies with interesting histories that we should avoid becoming.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Fandom_(website)">Wikia / Fandom</a> - similar to the Wikimedia Foundation but a for-profit company offering wiki hosting that is ad supported / paid.</p></li>
+<li><p><a class="reference external" href="https://github.com/reddit-archive/reddit">Reddit</a> - used to be open source code / infrastructure before it was acquired by Conde Nast!</p></li>
+</ul>
+</div>
+<div class="section" id="academia-focused-companies-non-profits">
+<h3>Academia-focused companies/non-profits<a class="headerlink" href="#academia-focused-companies-non-profits" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Ithaka_Harbors">Ithaka</a> - is a non-profit organizations that provides scholarly services for the academic community.</p></li>
+</ul>
+</div>
+</div>
+</div>
 
 
               </div>
@@ -213,6 +283,8 @@
     
     <div class='prev-next-bottom'>
         
+    <a class='left-prev' id="prev-link" href="../sre/" title="previous page">Site Reliability best practices</a>
+    <a class='right-next' id="next-link" href="../strategy/" title="next page">Strategy and goals</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
