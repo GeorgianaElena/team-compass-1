@@ -250,9 +250,36 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#terminology">
-   Terminology
+  <a class="reference internal nav-link" href="#slack">
+   Slack
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#who-is-invited-to-the-slack">
+     Who is invited to the Slack?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#private-vs-public-rooms-in-the-slack">
+     Private vs. Public rooms in the Slack
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-of-conduct">
+     Code of Conduct
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-rooms-to-use">
+     What rooms to use?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bots">
+     Bots
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -269,7 +296,7 @@
 <h1>Team practices<a class="headerlink" href="#team-practices" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="the-2i2c-handbook">
 <h2>The 2i2c handbook<a class="headerlink" href="#the-2i2c-handbook" title="Permalink to this headline">¶</a></h2>
-<p>The primary <a class="reference internal" href="#term-Single-Source-of-Truth"><span class="xref std std-term">source of truth</span></a> for information about 2i2c and its teams is the <a class="reference external" href="https://2i2c.org/handbook">2i2c Handbook</a>. This contains information for new and current 2i2c team members, as well as the latest information about the status of various projects (or pointers to where you should look).</p>
+<p>The primary <span class="xref std std-term">source of truth</span> for information about 2i2c and its teams is the <a class="reference external" href="https://2i2c.org/handbook">2i2c Handbook</a>. This contains information for new and current 2i2c team members, as well as the latest information about the status of various projects (or pointers to where you should look).</p>
 </div>
 <div class="section" id="general-organizational-information-documents-brainstorms">
 <h2>General organizational information / documents / brainstorms<a class="headerlink" href="#general-organizational-information-documents-brainstorms" title="Permalink to this headline">¶</a></h2>
@@ -287,13 +314,13 @@
 <h2>Team Conversation<a class="headerlink" href="#team-conversation" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="formal-and-project-communication">
 <h3>Formal and project communication<a class="headerlink" href="#formal-and-project-communication" title="Permalink to this headline">¶</a></h3>
-<p>2i2c uses GitHub issues and pull-requests to track more <em>formal</em> communication on projects and discussions. These issues are generally used as the <a class="reference internal" href="#term-Single-Source-of-Truth"><span class="xref std std-term">Single Source of Truth</span></a> for most of our projects. When in doubt, create an issue so that we can track its progress. Check the repositories in <a class="reference external" href="https://github.com/2i2c-org">the <code class="docutils literal notranslate"><span class="pre">2i2c-org</span></code> GitHub org</a> for where these conversations happen.</p>
+<p>2i2c uses GitHub issues and pull-requests to track more <em>formal</em> communication on projects and discussions. These issues are generally used as the <span class="xref std std-term">Single Source of Truth</span> for most of our projects. When in doubt, create an issue so that we can track its progress. Check the repositories in <a class="reference external" href="https://github.com/2i2c-org">the <code class="docutils literal notranslate"><span class="pre">2i2c-org</span></code> GitHub org</a> for where these conversations happen.</p>
 <p>In general, you are expected to monitor repositories that are important to the work that you’re doing. Keep up-to-date with new issues and comments on pre-existing issues. These are the official record of “things happening” in 2i2c.</p>
 </div>
 <div class="section" id="informal-communication">
 <h3>Informal communication<a class="headerlink" href="#informal-communication" title="Permalink to this headline">¶</a></h3>
 <p>Informal communication happens in the 2i2c Slack channel (<a class="reference external" href="http://2i2c.slack.com/">http://2i2c.slack.com/</a>). This Slack has both 2i2c staff and founding team members, as well as several other interested parties. You should now have access to the 2i2c Slack. If not, send one of the team members an email.</p>
-<p>All information with 2i2c must have a <a class="reference internal" href="#term-Single-Source-of-Truth"><span class="xref std std-term">Single Source of Truth</span></a>. Since information is fairly difficult to archive and discover on Slack, we <em>do not</em> treat it as a source of truth. Use it for coordination and communication, but make sure that any important information is documented elsewhere.</p>
+<p>All information with 2i2c must have a <span class="xref std std-term">Single Source of Truth</span>. Since information is fairly difficult to archive and discover on Slack, we <em>do not</em> treat it as a source of truth. Use it for coordination and communication, but make sure that any important information is documented elsewhere.</p>
 <p>Here are things that <strong>should not</strong> be in Slack, but instead put in an issue or other Source of Truth location:</p>
 <ul class="simple">
 <li><p>Important updates on the status of a project or issue</p></li>
@@ -336,22 +363,48 @@
 </li>
 </ul>
 </div>
-<div class="section" id="terminology">
-<h2>Terminology<a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h2>
-<p>Here are some helpful terms that we use at 2i2c.</p>
-<dl class="glossary simple">
-<dt id="term-Single-Source-of-Truth">Single Source of Truth</dt><dd><p>Remote teams and open communities need to balance information across team members, and ensure that everyone is on the same page. For this reason, it is recommended to adopt a “single source of truth” for anything important <a class="footnote-reference brackets" href="#sst1" id="id2">2</a>. This is an authoritative source that everyone can look to in order to know the current status and plan for anything we do at 2i2c.</p>
-</dd>
-</dl>
+<div class="section" id="slack">
+<h2>Slack<a class="headerlink" href="#slack" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="who-is-invited-to-the-slack">
+<h3>Who is invited to the Slack?<a class="headerlink" href="#who-is-invited-to-the-slack" title="Permalink to this headline">¶</a></h3>
+<p>Currently, anyone who is interested can join the 2i2c Slack. Initially this is people that mentioned they would like to join via our blog post. Any Slack member is welcome to send an invite link to another person that would like to join.</p>
+</div>
+<div class="section" id="private-vs-public-rooms-in-the-slack">
+<h3>Private vs. Public rooms in the Slack<a class="headerlink" href="#private-vs-public-rooms-in-the-slack" title="Permalink to this headline">¶</a></h3>
+<p>There are a mix of private and public rooms in the Slack. In general, conversations about projects, development, etc should be in public rooms. <strong>Most conversation in the 2i2c Slack should be in public channels</strong>.</p>
+<p>We’ll create private rooms for a few specific topics that probably warrant private conversation. By default, we’ll start with:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">#partnerships</span></code> - to discuss new partnerships with 2i2c</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">#recruiting</span></code> - to discuss hiring with 2i2c</p></li>
+</ul>
+<p>and eventually</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">#sales</span></code> - to discuss new sales leads etc</p></li>
+</ul>
+<p>Conversation about more sensitive topics like <em>pursuing</em> collaborations, sales, etc should be in a private room until it’s appropriate to start discussing in public channels. By default, all 2i2c staff, key volunteers, and founders will have access to all private rooms (it is only the “friends of 2i2c” and users that do not have access).</p>
+</div>
+<div class="section" id="code-of-conduct">
+<h3>Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Permalink to this headline">¶</a></h3>
+<p>2i2c is still in the process of creating its Code of Conduct, so it does not have a 2i2c-specific CoC to apply to the Slack. In the meantime, all members of the 2i2c Slack must abide by the <a class="reference external" href="https://numfocus.org/code-of-conduct">NumFocus Code of Conduct</a> guidelines. If you wish to report a violation of this code of conduct in the 2i2c Slack, send an email to <a class="reference external" href="mailto:conduct&#37;&#52;&#48;2i2c&#46;org"><code class="docutils literal notranslate"><span class="pre">conduct&#64;2i2c.org</span></code></a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This section will be updated once 2i2c defines its own CoC and reporting infrastructure.</p>
+</div>
+</div>
+<div class="section" id="what-rooms-to-use">
+<h3>What rooms to use?<a class="headerlink" href="#what-rooms-to-use" title="Permalink to this headline">¶</a></h3>
+<p>We try to keep the number of rooms to a minimum, and only add new rooms if it really feels necessary (e.g. if we keep having “off topic” conversations about the same topic in one room). Over time, we can revisit the Slack rooms that we use, and add / prune as needed.</p>
+</div>
+<div class="section" id="bots">
+<h3>Bots<a class="headerlink" href="#bots" title="Permalink to this headline">¶</a></h3>
+<p>We use the [GitHub bots])(https://slack.github.com/) to track github issues that are relevant to Slack channels, and explore more integrations in the future. In general we should only use the bot to mirror comments if a repository is <em>obviously always relevant</em> to a channel. Otherwise, only mirror comments that are <em>tagged with a particular label</em> (e.g. <code class="docutils literal notranslate"><span class="pre">#recruiting</span></code>).</p>
 <hr class="docutils" />
 <dl class="footnote brackets">
 <dt class="label" id="remote-work1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
 <dd><p><strong>References for Remote Work</strong>: <a class="reference external" href="https://about.gitlab.com/company/culture/all-remote/guide/">The GitLab remote work guide</a>, <a class="reference external" href="https://increment.com/remote/future-of-work-is-written/">the future of work is written</a>, <a class="reference external" href="https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb">RFCs as a management tool</a></p>
 </dd>
-<dt class="label" id="sst1"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
-<dd><p><strong>References for Single Source of Truth</strong>: For a few examples, see <a class="reference external" href="https://blog.bitergia.com/2020/08/25/why-ospo-teams-need-a-single-source-of-truth/">this Bitergia post</a> and <a class="reference external" href="https://about.gitlab.com/handbook/values/#single-source-of-truth">the GitLab SSOT section</a>.</p>
-</dd>
 </dl>
+</div>
 </div>
 </div>
 
