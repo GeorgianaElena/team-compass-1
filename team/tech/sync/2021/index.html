@@ -558,8 +558,8 @@
 <h4>Updates from last two weeks ✔<a class="headerlink" href="#updates-from-last-two-weeks" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>I have mostly been working with ICSI to define the contract that we’ll use</p></li>
-<li><p>I have worked with the 2i2c founding team to more explicitly define our governance and organizational structure! <a class="reference external" href="https://github.com/2i2c-org/team-compass/pull/38">https://github.com/2i2c-org/team-compass/pull/38</a></p></li>
-<li><p>Doing a bit of biz-dev trying to refine the <a class="reference external" href="https://docs.google.com/document/d/1Ka7tgJe7HR8EmS_MMakrYztgfkJT_iFksPsWHdQBqhM/edit?usp=sharing">Managed Service Plan</a> that we’re offering to people.</p></li>
+<li><p>I have worked with the 2i2c founding team to more explicitly define our governance and organizational structure! <span class="xref myst">https://github.com/2i2c-org/team-compass/pull/38</span></p></li>
+<li><p>Doing a bit of biz-dev trying to refine the <span class="xref myst">Managed Service Plan</span> that we’re offering to people.</p></li>
 </ul>
 </div>
 <div class="section" id="what-i-m-up-to-next">
@@ -595,7 +595,7 @@
 <ul class="simple">
 <li><p>Z2JH security vulnerability in z2jh guide on how to setup a AWS EKS cluster to be corrected and communicated.</p>
 <ul>
-<li><p><a class="reference external" href="https://github.com/orgs/jupyterhub/teams/jupyterhubteam/discussions/8">https://github.com/orgs/jupyterhub/teams/jupyterhubteam/discussions/8</a></p></li>
+<li><p><span class="xref myst">https://github.com/orgs/jupyterhub/teams/jupyterhubteam/discussions/8</span></p></li>
 </ul>
 </li>
 <li><p>Changelog writeup for z2jh</p></li>
@@ -640,13 +640,13 @@
 <div class="section" id="id12">
 <h4>Updates from last two weeks ✔<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>I’ve done a little bit of this and a little bit of that across the JupyterHub org (Example <a class="reference external" href="https://github.com/jupyterhub/jupyterhub-idle-culler/pull/20">general maintenance PR</a>), but I’m currently most excited about <a class="reference external" href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/2033">this pr</a>. It is finally getting the z2jh configuration reference updated to fully cover the available config options and at the same time including a jsonschema file that <code class="docutils literal notranslate"><span class="pre">helm</span></code> can use to catch various config errors for users of the chart and provide sensible messages while doing so.</p></li>
+<li><p>I’ve done a little bit of this and a little bit of that across the JupyterHub org (Example <span class="xref myst">general maintenance PR</span>), but I’m currently most excited about <span class="xref myst">this pr</span>. It is finally getting the z2jh configuration reference updated to fully cover the available config options and at the same time including a jsonschema file that <code class="docutils literal notranslate"><span class="pre">helm</span></code> can use to catch various config errors for users of the chart and provide sensible messages while doing so.</p></li>
 </ul>
 </div>
 <div class="section" id="id13">
 <h4>What I’m up to next ⬜<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>Pushing onwards to z2jh 1.0.0, after the schema validation logic I want to acquire an “official status” on <a class="reference external" href="http://artifacthub.io">artifacthub.io</a> where it is listed and make do a pass at the z2jh documentation so it is updated with lessons learned across time.</p></li>
+<li><p>Pushing onwards to z2jh 1.0.0, after the schema validation logic I want to acquire an “official status” on <span class="xref myst">artifacthub.io</span> where it is listed and make do a pass at the z2jh documentation so it is updated with lessons learned across time.</p></li>
 </ul>
 </div>
 <div class="section" id="links-to-items-for-discussion">
@@ -654,7 +654,7 @@
 <ul>
 <li><p>&#64;yuvipanda I’ve love to hear your suggestions on pod resource requests or empirical data on pod resource consumption as you hint you could share! To me, that would be one of those nice 1.0.0 features we can ship with the documentation.</p>
 <p>I’d be very happy to format and writeup the documentation and such based on a more raw knowledge input btw.</p>
-<p>Related: <a class="reference external" href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/2034">https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/2034</a></p>
+<p>Related: <span class="xref myst">https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/2034</span></p>
 </li>
 </ul>
 </div>
@@ -700,9 +700,9 @@
 <ul class="simple">
 <li><p>I’ve worked on z2jh PRs towards 1.0.0, where the following updates can be relevant to know about:</p>
 <ul>
-<li><p><a class="reference external" href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/2006">hub.extraFiles / singleuser.extraFiles</a>
+<li><p><span class="xref myst">hub.extraFiles / singleuser.extraFiles</span>
 This feature can help 2i2c deployments by offloading you off the logic to do define volumes/volumeMounts and helping YAML/JSON/TOML file to be mounted be configured from multiple helm configuration files (config.yaml / secret.yaml). It is also possible to have standalone files but then you must use –set-file during <code class="docutils literal notranslate"><span class="pre">helm</span> <span class="pre">upgrade</span></code> which is a bit messier.</p></li>
-<li><p><a class="reference external" href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/1993">seed secrets</a> + <a class="reference external" href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/2016">followup fix</a>
+<li><p><span class="xref myst">seed secrets</span> + <span class="xref myst">followup fix</span>
 This feature makes us no longer need to set or pass proxy.secretToken, hub.cookieSecret, or auth.state.cryptoKey - they will be automatically generated if not explicitly set.</p></li>
 </ul>
 </li>
@@ -718,12 +718,12 @@ This feature makes us no longer need to set or pass proxy.secretToken, hub.cooki
 <div class="section" id="id22">
 <h4>Links to items for discussion 💬<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>I’d love help to get the <a class="reference external" href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/2006">extraFiles</a> PR towards merge.</p>
+<li><p>I’d love help to get the <span class="xref myst">extraFiles</span> PR towards merge.</p>
 <ul>
 <li><p>Thank you Chris and Yuvi for your previous review!! Your previous review points have been addressed now!</p></li>
 </ul>
 </li>
-<li><p>I’d also appreciate a of the seed secrets <a class="reference external" href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/2016">followup fix</a>.</p></li>
+<li><p>I’d also appreciate a of the seed secrets <span class="xref myst">followup fix</span>.</p></li>
 <li><p>I’m generally curious about developing a solution to providing a authentication proxy for JupyterHub’s services, communicating with JupyterHub as an identity provider and relying on JupyterHub group membership something to decide if the user should be granted network access to the service - such as /services/docs for example. I’m not sure yet how to go about it, but I think it would be one of those somewhat general purpose tools and those motivate me a lot to work on!</p></li>
 </ul>
 </div>
@@ -757,7 +757,7 @@ This feature makes us no longer need to set or pass proxy.secretToken, hub.cooki
 <h4>Updates from last two weeks ✔<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>Dealing with 100% parenting + 100% working (fun!)</p></li>
-<li><p>Working on moving forward some more contracts for 2i2c (see <a class="reference external" href="https://github.com/2i2c-org/leads/projects/1">https://github.com/2i2c-org/leads/projects/1</a>)</p></li>
+<li><p>Working on moving forward some more contracts for 2i2c (see <span class="xref myst">https://github.com/2i2c-org/leads/projects/1</span>)</p></li>
 <li><p>Refactoring some of our team process / communication / workflow</p></li>
 <li><p>Setting up hiring practices that we can use for the OSIE hire + future ones!</p></li>
 </ul>
@@ -781,8 +781,8 @@ This feature makes us no longer need to set or pass proxy.secretToken, hub.cooki
 <h4>Thanks I’d like to give 🙌<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>Thank you everyone for connecting and establishing collaborations between 2i2c and so many amazing groups of people! I’m excited about 2i2c helping them!</p></li>
-<li><p>Thanks Yuvi for addressing the challenge of standardizing <a class="reference external" href="https://discourse.jupyter.org/t/announce-grafana-dashboards-for-jupyterhub-on-kubernetes/7320">Grafana Dashboards for z2jh deployments</a>!</p></li>
-<li><p>I’m very thankful for &#64;manics work, most recently for creating and working with me on the <a class="reference external" href="https://github.com/jupyterhub/action-k3s-helm">jupyterhub/action-k3s-helm</a> GitHub action we now reuse for four or more JupyterHub projects.</p></li>
+<li><p>Thanks Yuvi for addressing the challenge of standardizing <span class="xref myst">Grafana Dashboards for z2jh deployments</span>!</p></li>
+<li><p>I’m very thankful for &#64;manics work, most recently for creating and working with me on the <span class="xref myst">jupyterhub/action-k3s-helm</span> GitHub action we now reuse for four or more JupyterHub projects.</p></li>
 </ul>
 </div>
 <div class="section" id="id30">
@@ -801,7 +801,7 @@ This feature makes us no longer need to set or pass proxy.secretToken, hub.cooki
 <div class="section" id="id32">
 <h4>Links to items for discussion 💬<a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h4>
 <ul>
-<li><p>Merging <a class="reference external" href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/1943">this Z2JH PR</a> is what remains for the 0.11.0 release. I have looked for help to review it but the JupyterHub team membars are generally low on capacity. I’m not happy about either of the options I see: to wait, to self merge, or to repeat requests for help.</p>
+<li><p>Merging <span class="xref myst">this Z2JH PR</span> is what remains for the 0.11.0 release. I have looked for help to review it but the JupyterHub team membars are generally low on capacity. I’m not happy about either of the options I see: to wait, to self merge, or to repeat requests for help.</p>
 <p>Any ideas on how to manage this general situation and this specific PR is greatly appreciated. In general I currently wish for the JupyterHub team to compromise a bit on review stringency during times when reviewer’s availability are low. It would be nice to have some guidelines.</p>
 </li>
 <li><p>Meta discussion: Did I use this team-sync somewhat as intended? Any suggestions for changes in any form?</p></li>
@@ -859,7 +859,7 @@ This feature makes us no longer need to set or pass proxy.secretToken, hub.cooki
 <div class="section" id="id39">
 <h4>Links to items for discussion 💬<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>Just a general one - check out the team compass! <a class="reference external" href="https://2i2c.org/team-compass">https://2i2c.org/team-compass</a> and please don’t hesitate to contribute anything to this that you think would be useful.</p></li>
+<li><p>Just a general one - check out the team compass! <span class="xref myst">https://2i2c.org/team-compass</span> and please don’t hesitate to contribute anything to this that you think would be useful.</p></li>
 </ul>
 </div>
 </div>
