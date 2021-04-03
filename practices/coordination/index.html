@@ -1,0 +1,439 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How we coordinate and plan &#8212; The 2i2c Team Compass</title>
+    
+  <link rel="stylesheet" href="../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <link rel="author" title="About these documents" href="../../about/" />
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="Update the team compass" href="../team-compass/" />
+    <link rel="prev" title="How we communicate" href="../communication/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../">
+  
+  
+  <h1 class="site-logo" id="site-title">The 2i2c Team Compass</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../../search/" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <p class="caption collapsible-parent">
+ <span class="caption-text">
+  Team Practices
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../get-started/">
+   Get started at 2i2c
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../info-location/">
+   Where information is located
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../expectations/">
+   Expectations of team members
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../communication/">
+   How we communicate
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   How we coordinate and plan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../team-compass/">
+   Update the team compass
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../reference/projects/">
+   Active Projects at 2i2c
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Managed JupyterHub Service
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../managed-hubs/about/">
+   The Managed JupyterHub Service
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../managed-hubs/pricing/">
+   Pricing strategy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../managed-hubs/sales/">
+   Leads, sales, and hubs process
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Team Reference
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../reference/inspiration/">
+   Inspiration for 2i2c’s practices
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../reference/terminology/">
+   Important Terminology
+  </a>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../meetings/eng/">
+   Archive of Engineering Team Sync Notes
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../meetings/eng/2021/">
+     Team Sync 2021
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../meetings/eng/2020/">
+     Team Sync 2020
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  About 2i2c
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../about/">
+   Basic information about 2i2c
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../about/structure/">
+   Structure and governance of 2i2c
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../about/strategy/">
+   Strategy and goals
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../positions/">
+   Positions and Salaries
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/practices/coordination.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/2i2c-org/team-compass"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        <a class="edit-button" href="https://github.com/2i2c-org/team-compass/edit/main/practices/coordination.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-are-our-goals">
+   What are our goals?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#projects-and-deliverables-are-our-main-units-of-work">
+   Projects and deliverables are our main units of work
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tasks-are-steps-to-complete-a-deliverable">
+   Tasks are steps to complete a deliverable
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#keeping-track-of-our-goals">
+     Keeping track of our goals
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#weekly-team-syncs">
+   Weekly team syncs
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-about-stuff-that-shouldn-t-be-public">
+   What about stuff that shouldn’t be public?
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="how-we-coordinate-and-plan">
+<h1>How we coordinate and plan<a class="headerlink" href="#how-we-coordinate-and-plan" title="Permalink to this headline">¶</a></h1>
+<p>As a totally distributed team, it is important to have team practices that give one another insight into what we’re working on, identify opportunities to collaborate, and un-block one another. This page describes some of the practices that we adopt towards these goals.</p>
+<div class="section" id="what-are-our-goals">
+<h2>What are our goals?<a class="headerlink" href="#what-are-our-goals" title="Permalink to this headline">¶</a></h2>
+<p>Here are the goals we optimize for in organizing our team coordination practices.</p>
+<ul class="simple">
+<li><p>Give team members insight into what one another is working on (not to “report up”)</p></li>
+<li><p>Look for opportunities to work together and/or support one another’s work efficiently</p></li>
+<li><p>Provide some social accountability to get stuff done</p></li>
+</ul>
+<p>We want to do this with high efficiency so that people can quickly get on the same page and focus efforts around decision-making and collaboration. We also wish to do it in a 💯 remote-friendly way since we are split across many different time-zones.</p>
+</div>
+<div class="section" id="projects-and-deliverables-are-our-main-units-of-work">
+<h2>Projects and deliverables are our main units of work<a class="headerlink" href="#projects-and-deliverables-are-our-main-units-of-work" title="Permalink to this headline">¶</a></h2>
+<p>A new project should be created for anything with a specific scope and set of deliverables that spans a reasonably long amount of time. 2i2c projects should all feed into the <a class="reference internal" href="../../about/strategy/"><span class="doc std std-doc">2i2c organizational strategy and goals</span></a>.</p>
+<p>Each project should have the following things:</p>
+<ol class="simple">
+<li><p><strong>Summarize the project</strong>. What is the overarching scope and deverables for the project? Who is it in collaboration with? How does it fit in with the overarching <a class="reference internal" href="../../about/strategy/"><span class="doc std std-doc">strategic goals of 2i2c</span></a>?</p></li>
+<li><p><strong>Define the project’s key goal</strong>. What is the one key goal to accomplish with this project?</p></li>
+<li><p><strong>A <a class="reference internal" href="../../reference/terminology/#term-Source-of-Truth"><span class="xref std std-term">Source of Truth</span></a></strong>.  Where does project management and tracking take place? Where do we track progress? What about to-do items? Where does communication happen around this project? (e.g., in a GitHub repository, in Slack, in a Google doc).</p></li>
+<li><p><strong>A collection of deliverables</strong>. What are the deliverables that must exist in order to complete the project? These can start off more abstract, but over time they should become more concrete, and ultimately, lead to actionable tasks.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Deliverables are generally written as <strong>user stories</strong> - that is, with a particular user in mind, and a particular outcome they want to see.
+For example, “As a 2i2c Hub User, I want to install a package on my own.”
+Deliverables should be accomplishable in one or two sprints, and may have many tasks associated with them.</p>
+</div>
+</div>
+<div class="section" id="tasks-are-steps-to-complete-a-deliverable">
+<h2>Tasks are steps to complete a deliverable<a class="headerlink" href="#tasks-are-steps-to-complete-a-deliverable" title="Permalink to this headline">¶</a></h2>
+<p>In order to meet a deliverable, we need to take a set of actions, called <strong>Tasks</strong>.
+Tasks are verbs, not outcomes, and they should be extremely concrete and obvious what needs to be done.
+In addition, they should be accomplishable in one setting.</p>
+<p>Tasks are the things that 2i2c team members <em>plan to do</em> in a sprint.
+This helps keep our actions concrete, while still working towards a deliverable.</p>
+<div class="section" id="keeping-track-of-our-goals">
+<h3>Keeping track of our goals<a class="headerlink" href="#keeping-track-of-our-goals" title="Permalink to this headline">¶</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>We are considering phasing out team goals, and simply using <strong>Projects</strong> and <strong>Deliverables</strong> as described above.</p>
+</div>
+<p>Team goals are high-level goals (AKA, there’s no single action that will “complete” them) and span a longer period of time.
+Goals generally contain pointers to other issues / PRs / discussions where the work of more specific tasks is getting done.
+You should regularly communicate with other team members about which goals you’re focusing on (e.g., via Slack, GitHub Issues, or via the <a class="reference internal" href="#coordination-team-syncs"><span class="std std-ref">Weekly team syncs</span></a>)</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>When opening a new issue in the 2i2c <code class="docutils literal notranslate"><span class="pre">pilot-hubs/</span></code> repository, first check if it would be better to add it to the to-do list of a pre-existing goal.</p>
+</div>
+<p>We keep track of team goals via the <a class="reference external" href="https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Agoal"><span class="guilabel">goal</span> label in GitHub</a>.</p>
+</div>
+</div>
+<div class="section" id="weekly-team-syncs">
+<span id="coordination-team-syncs"></span><h2>Weekly team syncs<a class="headerlink" href="#weekly-team-syncs" title="Permalink to this headline">¶</a></h2>
+<p>Every Monday, the 2i2c Hub Operations team conducts a team sync to get on the same page and coordinate their tasks for the week.</p>
+<p>A GitHub Action will automatically create a new Team Sync issue at the beginning of each Monday.
+This action uses <a class="reference external" href="https://github.com/2i2c-org/team-compass/blob/main/.github/ISSUE_TEMPLATE/team-update.md">this issue template</a> and inserts currently open/actionable issues before creating the sync issue.
+It uses <a class="reference external" href="https://github.com/2i2c-org/team-compass/blob/main/scripts/post-team-sync.py">this Python/ipynb script to generate the issue</a>.</p>
+<p>Here is the process for our team syncs.</p>
+<ol class="simple">
+<li><p><strong>On Mondays new issue is created automatically</strong>. This issue is our space to discuss, update, and sync.</p></li>
+<li><p><strong>Team members give their responses</strong>. You can copy/paste the template, and then give your responses in comments to the issue. You shouldn’t feel forced to add content if you can’t think of anything, use it as much as is useful.</p></li>
+<li><p><strong>Discuss and agree on next steps throughout the day</strong>. The goal is to ensure that important issues have somebody paying attention to them, and that team members are supported in the tasks they work towards. At the end of the day the issue is automatically closed.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>While these syncs happen once a week, the process of communicating with team members and working on tasks / deliverables can be dynamic and constantly updating.
+The syncs are just to get everyone on the same page.</p>
+</div>
+</div>
+<div class="section" id="what-about-stuff-that-shouldn-t-be-public">
+<h2>What about stuff that shouldn’t be public?<a class="headerlink" href="#what-about-stuff-that-shouldn-t-be-public" title="Permalink to this headline">¶</a></h2>
+<p>For technical and infrastructure development, we should default to public. However, if something should <em>not</em> be public, mark it as-such in the HackMD and it won’t be included in the public notes.</p>
+</div>
+</div>
+
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="../communication/" title="previous page">How we communicate</a>
+    <a class='right-next' id="next-link" href="../team-compass/" title="next page">Update the team compass</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By 2i2c<br/>
+        
+            &copy; Copyright 2020, 2i2c.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
