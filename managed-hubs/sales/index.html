@@ -4,8 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leads, sales, and hubs process &#8212; The 2i2c Team Compass</title>
     
   <link rel="stylesheet" href="../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
@@ -73,7 +72,7 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <p>
+    <p class="caption collapsible-parent">
  <span class="caption-text">
   Team Practices
  </span>
@@ -115,7 +114,7 @@
   </a>
  </li>
 </ul>
-<p>
+<p class="caption collapsible-parent">
  <span class="caption-text">
   Managed JupyterHub Service
  </span>
@@ -137,7 +136,7 @@
   </a>
  </li>
 </ul>
-<p>
+<p class="caption collapsible-parent">
  <span class="caption-text">
   Team Reference
  </span>
@@ -173,7 +172,7 @@
   </i>
  </li>
 </ul>
-<p>
+<p class="caption collapsible-parent">
  <span class="caption-text">
   About 2i2c
  </span>
@@ -292,23 +291,28 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#overview-of-workflow">
-   Overview of workflow
+  <a class="reference internal nav-link" href="#the-leads-to-sales-workflow">
+   The Leads to Sales workflow
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#lead-generation-and-triage">
-     Lead generation and triage
+    <a class="reference internal nav-link" href="#overview">
+     Overview
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#converting-leads-into-sales">
-     Converting leads into sales
+    <a class="reference internal nav-link" href="#triage-stage">
+     Triage stage
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#converting-sales-into-hubs">
-     Converting sales into hubs
+    <a class="reference internal nav-link" href="#negotiation-stage">
+     Negotiation stage
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-hub-setup-stage">
+     The Hub Setup stage
     </a>
    </li>
   </ul>
@@ -325,11 +329,6 @@
    </li>
   </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#resources-for-running-the-hub">
-   Resources for running the hub
-  </a>
- </li>
 </ul>
 
         </nav>
@@ -342,71 +341,91 @@
         
               <div>
                 
-  <section id="leads-sales-and-hubs-process">
+  <div class="section" id="leads-sales-and-hubs-process">
 <h1>Leads, sales, and hubs process<a class="headerlink" href="#leads-sales-and-hubs-process" title="Permalink to this headline">¶</a></h1>
 <p>2i2c pursues new collaborations and contracts via following-up on leads for those who may be interested in 2i2c services.
 This page has information to help guide this process.</p>
-<section id="location-of-sales-assets-and-documents">
+<div class="section" id="location-of-sales-assets-and-documents">
 <h2>Location of sales assets and documents<a class="headerlink" href="#location-of-sales-assets-and-documents" title="Permalink to this headline">¶</a></h2>
 <p>Here are some locations of common documents used in the sales process (other than the repositories described below).</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://drive.google.com/drive/u/0/folders/1DEjtQ_hBw2Qae02_oe9UaGmRMYIkzJla">The Sales folder in Google Drive</a> - contains all folders and information that cover the sales and contracting process.</p></li>
-<li><p><a class="reference external" href="https://drive.google.com/drive/folders/1zBXL0X3S28W6iNAshBMaXF7gSpvnXa83?usp=sharing">The leads folder in Google Drive</a> - contains a folder for each lead that 2i2c is currently engaging.</p></li>
-<li><p><a class="reference external" href="https://drive.google.com/drive/folders/1aMZILBmFSTYBSB9EwyV5wRpcuprM06dJ?usp=sharing">The sales assets folder in Google Drive</a> - contains all templates, email copy, stationery, etc that is useful in 2i2c sales.</p></li>
-</ul>
-</section>
-<section id="overview-of-workflow">
-<h2>Overview of workflow<a class="headerlink" href="#overview-of-workflow" title="Permalink to this headline">¶</a></h2>
 <dl class="simple myst">
-<dt>We use two repositories to track leads / customers</dt><dd><ul class="simple">
-<li><p><a class="reference external" href="https://github.com/2i2c-org/leads"><strong><code class="docutils literal notranslate"><span class="pre">2i2c-org/leads</span></code></strong></a>. Information about all leads and sales that might lead to a new contract or sub-award.</p></li>
-<li><p><a class="reference external" href="https://github.com/2i2c-org/pilot-hubs"><strong><code class="docutils literal notranslate"><span class="pre">2i2c-org/pilot-hubs</span></code></strong></a>. Information about <em>currently running hub deployments</em> to keep track of our running hubs and divide responsibility between them.</p></li>
-</ul>
+<dt><a class="reference external" href="https://drive.google.com/drive/folders/1QuvUvwFxPAxw-bJ6_zjgwKXPurHC6UfW?usp=sharing">The Managed Hub Service folder</a></dt><dd><p>Contains all folders and information that cover the Managed Hub Service, including sales and contracting.</p>
+</dd>
+<dt><a class="reference external" href="https://drive.google.com/drive/folders/1msuG0xWPbawMwesD8LZxdMClP-GVpgT2?usp=sharing">The leads folder</a></dt><dd><p>Contains a folder for each lead that 2i2c is currently engaging. This is where we store client-specific information, such as price quotes or contracts that have been sent to them.</p>
+</dd>
+<dt><a class="reference external" href="https://drive.google.com/drive/folders/1aMZILBmFSTYBSB9EwyV5wRpcuprM06dJ?usp=sharing">The sales assets folder</a></dt><dd><p>Contains all templates, email copy, stationery, etc that is useful in 2i2c sales.</p>
 </dd>
 </dl>
-<section id="lead-generation-and-triage">
-<h3>Lead generation and triage<a class="headerlink" href="#lead-generation-and-triage" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="the-leads-to-sales-workflow">
+<h2>The Leads to Sales workflow<a class="headerlink" href="#the-leads-to-sales-workflow" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="overview">
+<h3>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h3>
 <dl class="simple myst">
-<dt>Creating a lead</dt><dd><p>Often people will contact us just to ask questions and learn more. When they show obvious interest in working with 2i2c, they are now a lead. <a class="reference external" href="https://github.com/2i2c-org/leads/issues/new?assignees=&amp;labels=lead&amp;template=new-lead.md&amp;title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D"><strong>Create an issue in <code class="docutils literal notranslate"><span class="pre">leads/</span></code></strong></a> and follow the checklist in that issue to follow-up. (a short overview is below)</p>
+<dt>We use <code class="docutils literal notranslate"><span class="pre">Monday.com</span></code> to track our leads</dt><dd><p><a class="reference external" href="https://icsi-company.monday.com/boards/1140216585"><strong>This Monday Board</strong></a> keeps track of all leads in the sales process. Below is an overview of each step in the process.</p>
 </dd>
-<dt>Leads each have a stage on the project board</dt><dd><p>We keep a high-level view of all leads <a class="reference external" href="https://github.com/2i2c-org/leads/projects/1">at this project board</a>. This board gives an overview of where we are in the follow-up process for each lead.</p>
+<dt>Status fields indicate each step of the sales process</dt><dd><p>We use Monday <strong>status fields</strong> to indicate where we are in the leads process. For example, a new lead is in the “Send Questionnaire” status of the “Triage Phase”. This means that the next action is to send them a questionnaire.</p>
 </dd>
-<dt>Each lead gets a Drive folder</dt><dd><p>Once we create any kind of asset attached to a lead (e.g., a budget, SOW, or notes from a meeting), create a folder for them. These exist in <a class="reference external" href="https://drive.google.com/drive/folders/1zBXL0X3S28W6iNAshBMaXF7gSpvnXa83?usp=sharing">the <code class="docutils literal notranslate"><span class="pre">sales/leads/</span></code> folder of the 2i2c Google Drive</a>.</p>
+<dt>Fill in information following each status column</dt><dd><p>As leads progress through the sales process, we need more information from them, eventually leading to a contract. Fill in this information, and once we reach the next “status” column on the board, we have entered a new phase of the process. At the end of a sale (AKA, once an invoice is sent an paid), all columns of the row should be filled.</p>
 </dd>
 </dl>
-</section>
-<section id="converting-leads-into-sales">
-<h3>Converting leads into sales<a class="headerlink" href="#converting-leads-into-sales" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="triage-stage">
+<h3>Triage stage<a class="headerlink" href="#triage-stage" title="Permalink to this headline">¶</a></h3>
+<p>The first stage is to understand whether an interested party is in-scope for 2i2c, and a good fit for the Managed Hub Service.</p>
 <dl class="simple myst">
-<dt>The leads questionnaire helps triage and estimate work</dt><dd><p>We gather the most structured and useful information for our leads using <a class="reference external" href="https://docs.google.com/forms/d/1KHw-4Wdyoofv-6CENeiOSbnC62LKdx55QTcZmXQVkkc/edit?usp=sharing">the leads generation questionnaire</a>. This should have questions that allow us to gather the information noted in <a class="reference internal" href="#sales-questions-to-answer"><span class="std std-ref">When to decide to work with a lead</span></a>.</p>
+<dt>Create a lead</dt><dd><p>When others show obvious interest in working with 2i2c, they are now a lead. <a class="reference external" href="https://icsi-company.monday.com/boards/1140216585"><strong>Create a new item in the sales pipeline</strong></a> and fill in the relevant information for them (everything up to “triage status”).</p>
 </dd>
-<dt>Use the pricing assets to quote a price</dt><dd><p>See the <a class="reference external" href="https://github.com/2i2c-org/leads/issues/new?assignees=&amp;labels=service%3Ahub&amp;template=new-hub-service.md&amp;title=%5BLead+org+%2F+Lead+person%5D+-+%5BLead+title%5D">issue template for lead generation</a> for links to these documents.</p>
+<dt>Send the questionnaire</dt><dd><p>To understand whether a lead is a good fit, we’ve created <a class="reference external" href="https://forms.gle/VFzs364iNrJgKnKu9">a short questionnaire</a> for them. Send a link to the questionnaire.</p>
+</dd>
+<dt>Create a Lead Folder for them</dt><dd><p>As soon as a lead responds to the questionnaire, create a folder for them <a class="reference external" href="https://drive.google.com/drive/folders/1msuG0xWPbawMwesD8LZxdMClP-GVpgT2?usp=sharing">in the leads folder</a>. Use this to store any lead-specific information, such as price quotes and contracts.</p>
+</dd>
+<dt>Decide if they are in-scope</dt><dd><p>If the lead is in-scope, then set the Triage status column to “In Scope” and move on to the negotiation stage.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="negotiation-stage">
+<h3>Negotiation stage<a class="headerlink" href="#negotiation-stage" title="Permalink to this headline">¶</a></h3>
+<p>The negotiation stage is where we understand a bit more about what the lead needs and whether we’ll be able to provide it. For example, do they want something really custom that goes beyond our standard Managed Hub distributions? If so, they might be a “development lead” rather than a “managed service lead”.</p>
+<dl class="simple myst">
+<dt>Create a quote</dt><dd><p>Create a lead-specific copy of the <a class="reference external" href="https://docs.google.com/spreadsheets/d/10Gxufgmiuhq2Up69a6NdQoRs0xgKOi1Jts66wwiqF50/edit#gid=832336436">pricing sheet template</a> as well as the <a class="reference external" href="https://docs.google.com/document/d/1wxIKBzx0pYYVHWK6hnyYIvGRWpifU9vSHUI3ExWN8DI/edit?usp=sharing">price quote template</a>. Using the pricing sheet, and the answers from their questionnaire, create a price quote for them about the service.</p>
+</dd>
+<dt>Send a quote</dt><dd><p>Once you’ve generated a quote for them, send them the modified Price Quote Template, along with a link to the <a class="reference external" href="https://docs.google.com/document/d/1Ka7tgJe7HR8EmS_MMakrYztgfkJT_iFksPsWHdQBqhM/edit?usp=sharing">Managed Service Plan</a>.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Once we quote an actual price for somebody, it is time to start looping our contracts   and administration team into the conversation. This process is still undefined, and   this section should be added once we understand it.</p>
+<p>At this point, ICSI should be notified of the lead, because we have sent a specific price quote. This <em>should</em> be automated with <a class="reference external" href="http://Monday.com">Monday.com</a>.</p>
 </div>
 </dd>
-<dt>Once a customer agrees to work with us at a price, begin the contracting process</dt><dd><p>After a lead agrees to work with us, they become a customer. We must coordinate with our contracts team to generate a contract for them, and potentially set ourselves up as a vendor in their system. Once this is finished, we can start sending monthly invoices.</p>
-<div class="warning admonition">
-<p class="admonition-title">To Do</p>
-<p>We need to define the contract / vendorization process with our contracts team and the customer organization.</p>
+<dt>Negotiate on a price</dt><dd><p>We may require a few back-and-forths to clarify the needs of the lead and arrive at a specific number and date for service. Modify the Price Sheet as well as the Price Quote template as-needed throughout these conversations. If a customer agrees to a quote, we then send them a Contract.</p>
+</dd>
+<dt>Send them a contract</dt><dd><p>Once a customer agrees to a price quote, send them a contract. Notify ICSI contracting as well as ICSI finance that we need to send this contract to the customer. They will prepare the contract in DocuSign and send it to them. Once they sign the contract, put a copy in the lead’s folder.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This process may involve some negotiation between ICSI admin and the lead. Over time, we should detect common changes that clients want, and consider baking them into our contract language.</p>
 </div>
+</dd>
+<dt>Send an invoice and get to work 🚀</dt><dd><p>Once a customer has signed the contract, we may begin work on setting up their hub infrastructure, as well as sending them an invoice. ICSI finance will take care of the latter. We should next focus on setting up their hub.</p>
 </dd>
 </dl>
-</section>
-<section id="converting-sales-into-hubs">
-<h3>Converting sales into hubs<a class="headerlink" href="#converting-sales-into-hubs" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="the-hub-setup-stage">
+<h3>The Hub Setup stage<a class="headerlink" href="#the-hub-setup-stage" title="Permalink to this headline">¶</a></h3>
+<p>The final step of the Leads and Sales process is to set up a managed JupyterHub for the lead (now, the “client”). To do so, follow the process below:</p>
 <dl class="simple myst">
-<dt>Each hub gets an issue</dt><dd><p>We use <a class="reference external" href="https://github.com/2i2c-org/hubs/issues">issues in the <code class="docutils literal notranslate"><span class="pre">pilot-hubs/</span></code> repository</a> with the <a class="reference external" href="https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AHub"><span class="guilabel">Hub</span> label</a> to track the progress of each hub we are running.</p>
+<dt>Create an issue for the client</dt><dd><p>We use <a class="reference external" href="https://github.com/2i2c-org/hubs/issues">issues in the <code class="docutils literal notranslate"><span class="pre">pilot-hubs/</span></code> repository</a> with the <a class="reference external" href="https://github.com/2i2c-org/pilot-hubs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AHub"><span class="guilabel">Hub</span> label</a> to track the progress of each hub we are running.</p>
 </dd>
 <dt>The New Hub generation process</dt><dd><p>Follow the <a class="reference external" href="https://pilot-hubs.2i2c.org">process defined in the <code class="docutils literal notranslate"><span class="pre">pilot-hubs</span></code> repo</a> in creating a new hub for a lead. This will then track the operation and maintenance of the hub.</p>
 </dd>
 </dl>
-</section>
-</section>
-<section id="tips-and-faqs">
+<div class="admonition-to-do-create-a-customer-management-system admonition">
+<p class="admonition-title">To Do: Create a Customer Management system</p>
+<p>In addition to tracking our sales / leads, we need to track running hubs and active customers in order to quickly understand their status and respond to their needs.</p>
+</div>
+</div>
+</div>
+<div class="section" id="tips-and-faqs">
 <h2>Tips and FAQs<a class="headerlink" href="#tips-and-faqs" title="Permalink to this headline">¶</a></h2>
-<section id="when-to-decide-to-work-with-a-lead">
+<div class="section" id="when-to-decide-to-work-with-a-lead">
 <span id="sales-questions-to-answer"></span><h3>When to decide to work with a lead<a class="headerlink" href="#when-to-decide-to-work-with-a-lead" title="Permalink to this headline">¶</a></h3>
 <p>To decide whether we should continue engaging with a particular lead, we need to know whether they are in-scope for our mission and likely to be able to successfully collaborate with us.
 The <a class="reference external" href="https://xxiibrands.com/sales/qualify-your-sales-leads-with-maniac-t/"><code class="docutils literal notranslate"><span class="pre">MANIAC-T</span></code> framework</a> can be helpful in coming to a decision. Here is a short description of these guideilnes:</p>
@@ -419,13 +438,9 @@ The <a class="reference external" href="https://xxiibrands.com/sales/qualify-you
 <li><p><strong>Competition</strong>. What alternative options are they considering? e.g., other organizations, internal approaches, or deciding to do nothing?</p></li>
 <li><p><strong>Timeline</strong>. What does the buying process look like for this prospect? E.g., finalizing a contract, or receiving a sub-award.</p></li>
 </ul>
-</section>
-</section>
-<section id="resources-for-running-the-hub">
-<h2>Resources for running the hub<a class="headerlink" href="#resources-for-running-the-hub" title="Permalink to this headline">¶</a></h2>
-<p>See <span class="xref myst">the team SRE guide</span> for our resources and process around running a hub.</p>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
               </div>
