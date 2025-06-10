@@ -22,6 +22,12 @@ jobs:
             printf '\nEOF\n'
           } >> "$GITHUB_OUTPUT"
           echo ${GITHUB_OUTPUT}
+      
+      - name: Debug accounts
+        run: |
+          echo "${{ steps.read_accounts.outputs.accounts }}"
+          cat .github/workflows/accounts.md
+
 
       - name: Append Issue Body
         uses: julien-deramond/update-issue-body@v1
