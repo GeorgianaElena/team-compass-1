@@ -17,10 +17,10 @@ jobs:
       - name: Read accounts.md
         run: |
           {
-            echo 'accounts<<EOF'
+            printf 'accounts<<EOF\n'
             cat .github/workflows/accounts.md
-            echo 'EOF'
-          } >> $GITHUB_OUTPUT
+            printf '\nEOF\n'
+          } >> "$GITHUB_OUTPUT"
 
       - name: Add comment with accounts list
         uses: peter-evans/create-or-update-comment@v4
