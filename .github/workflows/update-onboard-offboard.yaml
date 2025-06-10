@@ -16,13 +16,13 @@ jobs:
 
       - name: Read accounts.md
         run: |
-            echo "accounts<<EOF" >> $GITHUB_OUTPUT
-            cat .github/workflows/accounts.md >> $GITHUB_OUTPUT
-            echo EOF >> "$GITHUB_OUTPUT"
+            echo "accounts<<EOF" >> $GITHUB_ENV
+            cat .github/workflows/accounts.md >> $GITHUB_ENV
+            echo EOF >> "$GITHUB_ENV"
 
       - name: Add comment with accounts list
         uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            ${{ steps.read_accounts.outputs.accounts }}
+            ${{ env.accounts }}
