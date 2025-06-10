@@ -18,7 +18,7 @@ jobs:
         run: |
             echo "accounts<<EOF" >> $GITHUB_OUTPUT
             cat .github/workflows/accounts.md >> $GITHUB_OUTPUT
-            echo "EOF" >> "$GITHUB_OUTPUT"
+            echo EOF >> "$GITHUB_OUTPUT"
 
       - name: Add comment with accounts list
         uses: peter-evans/create-or-update-comment@v4
